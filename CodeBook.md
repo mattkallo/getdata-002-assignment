@@ -14,7 +14,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-For more details on Raw Data. please refer to README.txt provided with same
+> Below is an excerpt from README.txt provided with Raw Dataset. For more details, please refer to same
 
 ### Tidy Dataset
 
