@@ -1,4 +1,3 @@
-
 ## R Program : Utility to read HAR Dataset and perform clean-up operations to create the Tidy 
 ## Dataset. This program reads the provided test and train set data; merge data points for 
 ## each set and merge both sets together as a single dataset. A summarized dataset is created 
