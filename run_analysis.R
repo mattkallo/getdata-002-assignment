@@ -17,7 +17,6 @@ getTestData <- function(activityLabels){
         activityIDNames <- merge(testY,activityLabels,by.x="V1",by.y="ActivityID")        
         testMergedwithActivityIDNames <- cbind(activityIDNames,testX)       
         fullTestData <- cbind(testSubjects,testMergedwithActivityIDNames)
-        write.table(fullTestData, file ="fullTestData.csv",row.names=FALSE,sep=",", append=FALSE)        
         fullTestData
 }
 
@@ -35,7 +34,6 @@ getTrainData <- function(activityLabels){
         activityIDNames <- merge(trainY,activityLabels,by.x="V1",by.y="ActivityID")
         trainMergedwithActivityIDNames <- cbind(activityIDNames,trainX)
         fullTrainData <- cbind(trainSubjects,trainMergedwithActivityIDNames)
-        write.table(fullTrainData, file ="fullTrainData.csv",row.names=FALSE,sep=",", append=FALSE)
         fullTrainData
 }
 
@@ -69,7 +67,6 @@ getFeatureLabels <- function(){
         labels$V3 <- gsub("angle", "AngleBetweenVectors", labels$V3)       
         labels$V3 <- gsub("\\(tBody", "\\(TimeBody", labels$V3)       
         labels$V3 <- gsub("gravity", "Gravity", labels$V3)       
-        ##write.table(labels, file ="labels.csv",row.names=FALSE,sep=",", append=FALSE)
         labels
 }
 
@@ -104,6 +101,6 @@ stdMeanColumns$V3 <- gsub("^", "AverageOf", stdMeanColumns$V3)
 names(summarizedData) <- c("Subject","ActivityID","ActivityDescription",as.character(stdMeanColumns$V3))
 
 ## Create the Tidy Dataset as a txt file
-write.table(summarizedData, file ="HARTidyDataset.csv",row.names=FALSE,sep=",", append=FALSE)
+write.table(summarizedData, file ="HARTidyDataset.txt",row.names=FALSE,sep=" ", append=FALSE)
 
 ## End of Program
