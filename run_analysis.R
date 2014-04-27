@@ -94,15 +94,19 @@ names(combinedData) <- c("Subject","ActivityID","ActivityDescription",as.charact
 ## Subset Mean and Standard Deviation Columns
 stdMeanColumns <- featureLabels[grep("mean\\(\\)|std\\(\\)", featureLabels$V2),]
 filteredData <- combinedData[,c("Subject","ActivityID","ActivityDescription",c(as.character(stdMeanColumns[,2])))]
-names(filteredData) <- c("Subject","ActivityID","ActivityDescription",as.character(stdMeanColumns$V3))
-##write.table(filteredData, file ="HARTidyDataset1.csv",row.names=FALSE,sep=",", append=FALSE)
 
-#Second Data Set
-names(combinedData) <- c("Subject","ActivityID","ActivityDescription",as.character(featureLabels$V3))
-combinedData[, c(4:564)] <- sapply(combinedData[, c(4:564)], as.character)
-combinedData[, c(4:564)] <- sapply(combinedData[, c(4:564)], as.numeric)
-summarizedData <- aggregate(combinedData[, c(4:564)], by = list(combinedData$Subject, combinedData$ActivityID,combinedData$ActivityDescription), FUN = "mean", rm.na=TRUE)
-colnames(summarizedData)[c(1,2,3)] <- c("Subject","ActivityID","ActivityDescription")
-write.table(summarizedData, file ="HARTidyDataset2.csv",row.names=FALSE,sep=",", append=FALSE)
+## Converting obs to numeric values
+filteredData[, c(4:69)] <- sapply(filteredData[, c(4:69)], as.character)
+filteredData[, c(4:69)] <- sapply(filteredData[, c(4:69)], as.numeric)
+
+## Aggregating values by Subject & Activity and Compute Averages
+summarizedData <- aggregate(filteredData[, c(4:69)], by = list(filteredData$Subject, filteredData$ActivityID,filteredData$ActivityDescription), FUN = "mean", rm.na=TRUE)
+stdMeanColumns$V3 <- gsub("^", "AverageOf", stdMeanColumns$V3)   
+names(summarizedData) <- c("Subject","ActivityID","ActivityDescription",as.character(stdMeanColumns$V3))
+
+##colnames(summarizedData)[c(1,2,3)] <- c("Subject","ActivityID","ActivityDescription")
+
+## Create the Tidy Dataset as a txt file
+write.table(summarizedData, file ="HARTidyDataset.csv",row.names=FALSE,sep=",", append=FALSE)
 
 ## End of Program
