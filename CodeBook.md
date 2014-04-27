@@ -1,5 +1,26 @@
 ## Code Book for Human Activity Recognition Using Smartphones Data Set 
 
+### Raw Dataset
+> Below is an excerpt from README.txt provided with Raw Dataset. For more details, please refer to same
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+
+The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
+
+#### For each record it is provided:
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+For more details on Raw Data. please refer to README.txt provided with same
+
+### Tidy Dataset
+
+Tidy Dataset has Averages of Means & Standard Deviations summarized by Subject and Activity. It aggregates data from both Train and Test Datasets. Details on how to generate, steps followed and each feature in the Tidy Data is provided below.
+
+
 ### Instructions to generate the Tidy Dataset
 * Download the Raw Dataset from the URL
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -24,77 +45,243 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ### Assumptions
 * Mean and Standard Deviations features are named either -mean() or -std() in the row dataset
-
+* There are no individual observations that are missing in the supplied raw data
 
 ### Variables / Features
 
-Subject         
-ActivityID
-ActivityDescription
-AverageOfTimeBodyAccelerometer-Mean-X	
-AverageOfTimeBodyAccelerometer-Mean-Y	
-AverageOfTimeBodyAccelerometer-Mean-Z	
-AverageOfTimeBodyAccelerometer-StandardDeviation-X	
-AverageOfTimeBodyAccelerometer-StandardDeviation-Y	
-AverageOfTimeBodyAccelerometer-StandardDeviation-Z	
-AverageOfTimeGravityAccelerometer-Mean-X	
-AverageOfTimeGravityAccelerometer-Mean-Y	
-AverageOfTimeGravityAccelerometer-Mean-Z	
-AverageOfTimeGravityAccelerometer-StandardDeviation-X	
-AverageOfTimeGravityAccelerometer-StandardDeviation-Y	
-AverageOfTimeGravityAccelerometer-StandardDeviation-Z	
-AverageOfTimeBodyAccelerometerJerk-Mean-X	
-AverageOfTimeBodyAccelerometerJerk-Mean-Y	
-AverageOfTimeBodyAccelerometerJerk-Mean-Z	
-AverageOfTimeBodyAccelerometerJerk-StandardDeviation-X	
-AverageOfTimeBodyAccelerometerJerk-StandardDeviation-Y	
-AverageOfTimeBodyAccelerometerJerk-StandardDeviation-Z
-AverageOfTimeBodyGyroscope-Mean-X
-AverageOfTimeBodyGyroscope-Mean-Y	
-AverageOfTimeBodyGyroscope-Mean-Z	
-AverageOfTimeBodyGyroscope-StandardDeviation-X	
-AverageOfTimeBodyGyroscope-StandardDeviation-Y	
-AverageOfTimeBodyGyroscope-StandardDeviation-Z	
-AverageOfTimeBodyGyroscopeJerk-Mean-X	
-AverageOfTimeBodyGyroscopeJerk-Mean-Y	
-AverageOfTimeBodyGyroscopeJerk-Mean-Z	
-AverageOfTimeBodyGyroscopeJerk-StandardDeviation-X	
-AverageOfTimeBodyGyroscopeJerk-StandardDeviation-Y	
-AverageOfTimeBodyGyroscopeJerk-StandardDeviation-Z	
-AverageOfTimeBodyAccelerometerMagnitude-Mean	
-AverageOfTimeBodyAccelerometerMagnitude-StandardDeviation
-AverageOfTimeGravityAccelerometerMagnitude-Mean	
-AverageOfTimeGravityAccelerometerMagnitude-StandardDeviation
-AverageOfTimeBodyAccelerometerJerkMagnitude-Mean	
-AverageOfTimeBodyAccelerometerJerkMagnitude-StandardDeviation	
-AverageOfTimeBodyGyroscopeMagnitude-Mean	
-AverageOfTimeBodyGyroscopeMagnitude-StandardDeviation	
-AverageOfTimeBodyGyroscopeJerkMagnitude-Mean	
-AverageOfTimeBodyGyroscopeJerkMagnitude-StandardDeviation	
-AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-X	
-AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-Y	
-AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-Z	
-AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-X	
-AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-Y	
-AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-Z	
-AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-X	
-AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-Y	
-AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-Z	
-AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-X	
-AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-Y	
-AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-Z	
-AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-X	
-AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-Y	
-AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-Z	
-AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-X	
-AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-Y	
-AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-Z	
-AverageOfFrequencyDomainSignalsBodyAccelerometerMagnitude-Mean	
-AverageOfFrequencyDomainSignalsBodyAccelerometerMagnitude-StandardDeviation	
-AverageOfFrequencyDomainSignalsBodyBodyAccelerometerJerkMagnitude-Mean	
-AverageOfFrequencyDomainSignalsBodyBodyAccelerometerJerkMagnitude-StandardDeviation	
-AverageOfFrequencyDomainSignalsBodyBodyGyroscopeMagnitude-Mean	
-AverageOfFrequencyDomainSignalsBodyBodyGyroscopeMagnitude-StandardDeviation	
-AverageOfFrequencyDomainSignalsBodyBodyGyroscopeJerkMagnitude-Mean	
-AverageOfFrequencyDomainSignalsBodyBodyGyroscopeJerkMagnitude-StandardDeviation
+#### Subject
+        Description : Subject Number/ID
+        Datatype : Ingeter
+        Unique Number (0 to 30) assigned to each Subject
+                
+#### ActivityID	
+        Description : Activity ID
+        Datatype : Ingeter
+        1 to 6 assigned to each activity type
+        1 WALKING
+        2 WALKING_UPSTAIRS
+        3 WALKING_DOWNSTAIRS
+        4 SITTING
+        5 STANDING
+        6 LAYING
+       
+#### ActivityDescription	
+        Description : Activity Description
+        Datatype : Character
+        WALKING
+        WALKING_UPSTAIRS
+        WALKING_DOWNSTAIRS
+        SITTING
+        STANDING
+        LAYING
 
+####    AverageOfTimeBodyAccelerometer-Mean-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometer-Mean-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometer-Mean-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometer-StandardDeviation-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometer-StandardDeviation-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometer-StandardDeviation-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeGravityAccelerometer-Mean-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeGravityAccelerometer-Mean-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeGravityAccelerometer-Mean-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeGravityAccelerometer-StandardDeviation-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeGravityAccelerometer-StandardDeviation-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeGravityAccelerometer-StandardDeviation-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerJerk-Mean-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerJerk-Mean-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerJerk-Mean-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerJerk-StandardDeviation-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerJerk-StandardDeviation-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerJerk-StandardDeviation-Z
+        Description : Activity Description
+        Datatype : Character
+        Description : Activity Description
+        Datatype : Character
+        Description : Activity Description
+        Datatype : Character
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscope-Mean-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscope-Mean-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscope-Mean-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscope-StandardDeviation-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscope-StandardDeviation-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscope-StandardDeviation-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeJerk-Mean-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeJerk-Mean-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeJerk-Mean-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeJerk-StandardDeviation-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeJerk-StandardDeviation-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeJerk-StandardDeviation-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeGravityAccelerometerMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeGravityAccelerometerMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerJerkMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyAccelerometerJerkMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeJerkMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfTimeBodyGyroscopeJerkMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-Z
+        Description : Activity Description
+        Datatype : Character
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-Z
+        Description : Activity Description
+        Datatype : Character
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-X
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-Y
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-Z
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometerMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyAccelerometerMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyBodyAccelerometerJerkMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyBodyAccelerometerJerkMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyBodyGyroscopeMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyBodyGyroscopeMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyBodyGyroscopeJerkMagnitude-Mean
+        Description : Activity Description
+        Datatype : Character
+####	AverageOfFrequencyDomainSignalsBodyBodyGyroscopeJerkMagnitude-StandardDeviation
+        Description : Activity Description
+        Datatype : Character
