@@ -1,7 +1,16 @@
 ## Scripts & Tidy Dataset - Human Activity Recognition Using Smartphones Dataset
 #### Version 1.0
+#### Generated for Coursera Data Science - Getting & Cleaning Data Course
 
-This repository has scripts and details required to generate Tidy Dataset from the Human Activity Recognition Using Smartphones Dataset provided. It also has the Tidy Dataset Generated.
+This repository has scripts and details required to generate Tidy Dataset from the Human Activity Recognition Using Smartphones Dataset provided. It also has the Tidy Dataset that was generated.
+
+Tidy Dataset has Averages of Means & Standard Deviations summarized by Subject and Activity. It aggregates data from both Train and Test Datasets. Details on how to generate, steps followed and each feature in the Tidy Data are provided in the CodeBook.
+
+Raw Dataset and details can be found the below links
+
+Dataset : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Details : http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ### This repository contains the below files
 * run_analysis.R - R Script to cleanup and generate the Tidy Dataset from Raw Dataset
