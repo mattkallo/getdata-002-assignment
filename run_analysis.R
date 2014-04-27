@@ -104,8 +104,6 @@ summarizedData <- aggregate(filteredData[, c(4:69)], by = list(filteredData$Subj
 stdMeanColumns$V3 <- gsub("^", "AverageOf", stdMeanColumns$V3)   
 names(summarizedData) <- c("Subject","ActivityID","ActivityDescription",as.character(stdMeanColumns$V3))
 
-##colnames(summarizedData)[c(1,2,3)] <- c("Subject","ActivityID","ActivityDescription")
-
 ## Create the Tidy Dataset as a txt file
 write.table(summarizedData, file ="HARTidyDataset.csv",row.names=FALSE,sep=",", append=FALSE)
 
