@@ -76,212 +76,198 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
         LAYING
 
 ####    AverageOfTimeBodyAccelerometer-Mean-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Signal Mean on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometer-Mean-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Signal Mean on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometer-Mean-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Signal Mean on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometer-StandardDeviation-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Signal Standard Deviation on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometer-StandardDeviation-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Signal Standard Deviation on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometer-StandardDeviation-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Signal Standard Deviation on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeGravityAccelerometer-Mean-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Gravity Accelerometer Signal Mean on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeGravityAccelerometer-Mean-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Gravity Accelerometer Signal Mean on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeGravityAccelerometer-Mean-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Gravity Accelerometer Signal Mean on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeGravityAccelerometer-StandardDeviation-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Gravity Accelerometer Signal Standard Deviation on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeGravityAccelerometer-StandardDeviation-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Gravity Accelerometer Signal Standard Deviation on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeGravityAccelerometer-StandardDeviation-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Gravity Accelerometer Signal Standard Deviation on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerJerk-Mean-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Jerk Mean on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerJerk-Mean-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Jerk Mean on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerJerk-Mean-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Jerk Mean on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerJerk-StandardDeviation-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Jerk Standard Deviation on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerJerk-StandardDeviation-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Jerk Standard Deviation on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerJerk-StandardDeviation-Z
-        Description : Activity Description
-        Datatype : Character
-        Description : Activity Description
-        Datatype : Character
-        Description : Activity Description
-        Datatype : Character
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Jerk Standard Deviation on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscope-Mean-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Signal Mean on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscope-Mean-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Signal Mean on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscope-Mean-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Signal Mean on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscope-StandardDeviation-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Signal Standard Deviation on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscope-StandardDeviation-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Signal Standard Deviation on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscope-StandardDeviation-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Signal Standard Deviation on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeJerk-Mean-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Jerk Signal Mean on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeJerk-Mean-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Jerk Signal Mean on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeJerk-Mean-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Jerk Signal Mean on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeJerk-StandardDeviation-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Jerk Signal Standard Deviation on X Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeJerk-StandardDeviation-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Jerk Signal Standard Deviation on Y Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeJerk-StandardDeviation-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Jerk Signal Standard Deviation on Z Axis
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Signal Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Signal Magnitude Standard Deviation
+        Datatype : Numeric
 ####	AverageOfTimeGravityAccelerometerMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Gravity Accelerometer Signal Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfTimeGravityAccelerometerMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Gravity Accelerometer Signal Magnitude Standard Deviation
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerJerkMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Jerk Signal Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfTimeBodyAccelerometerJerkMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Accelerometer Jerk Signal Magnitude Standard Deviation
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Signal Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Signal Magnitude Standard Deviation
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeJerkMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Jerk Signal Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfTimeBodyGyroscopeJerkMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Time Body Gyroscope Jerk Signal Magnitude Standard Deviation
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Signal Mean on X Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Signal Mean on Y Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometer-Mean-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Signal Mean on Z Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Signal Standard Deviation on X Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Signal Standard Deviation on Y Axis
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometer-StandardDeviation-Z
-        Description : Activity Description
-        Datatype : Character
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Signal Standard Deviation on Z Axis
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Jerk Signal Mean on X Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Jerk Signal Mean on Y Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-Mean-Z
-        Description : Activity Description
-        Datatype : Character
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Jerk Signal Mean on Z Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Jerk Signal Standard Deviation on X Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Jerk Signal Standard Deviation on Y Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometerJerk-StandardDeviation-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Jerk Signal Standard Deviation on Z Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Gyroscope Signal Mean on X Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Gyroscope Signal Mean on Y Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyGyroscope-Mean-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Gyroscope Signal Mean on Z Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-X
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Gyroscope Signal Standard Deviation on X Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-Y
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Gyroscope Signal Standard Deviation on Y Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyGyroscope-StandardDeviation-Z
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Gyroscope Signal Standard Deviation on Z Axis
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometerMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Signal Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyAccelerometerMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body Accelerometer Signal Magnitude Standard Deviation
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyBodyAccelerometerJerkMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body-Body Accelerometer Jerk Signal  Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyBodyAccelerometerJerkMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body-Body Accelerometer Jerk Signal  Magnitude Standard Deviation
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyBodyGyroscopeMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body-Body Gyroscope Signal Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyBodyGyroscopeMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body-Body Gyroscope Signal Magnitude Standard Deviation
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyBodyGyroscopeJerkMagnitude-Mean
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body-Body Gyroscope Jerk Signal  Magnitude Mean
+        Datatype : Numeric
 ####	AverageOfFrequencyDomainSignalsBodyBodyGyroscopeJerkMagnitude-StandardDeviation
-        Description : Activity Description
-        Datatype : Character
+        Description : Average of Frequency Domain Signals Body-Body Gyroscope Jerk Signal Magnitude Standard Deviation
+        Datatype : Numeric
