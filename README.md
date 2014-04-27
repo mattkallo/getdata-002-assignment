@@ -1,6 +1,5 @@
 ## Scripts & Tidy Dataset - Human Activity Recognition Using Smartphones Dataset
 #### Version 1.0
-#### Generated for Coursera Data Science - Getting & Cleaning Data Course
 
 This repository has scripts and details required to generate Tidy Dataset from the Human Activity Recognition Using Smartphones Dataset provided. It also has the Tidy Dataset that was generated.
 
@@ -29,7 +28,7 @@ Details : http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Usin
  5) Variable/Features
 
 * HARTidyDataset.txt - Tidy Dataset Generated
-        
+
 ### License:
 
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
@@ -39,3 +38,6 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
+##### Generated for Coursera Data Science - Getting & Cleaning Data Course
+
